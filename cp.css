@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+.header {
+  background-color: #ff00ff;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.box {
+  background-color: #fbb3ff;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+.header > :first-child {
+  margin-right: auto;
+}
+  
+  .main {
+      width: auto;
+      height: 60%;
+      display: flex;
+  }
+  
+  ..sub-container {
+      width: 300px;
+      height: auto;
+      color: #f7f7f7;
+  }
+  
+  ..main-container {
+      max-width: 700px;
+      height: auto;
+      flex:grow;
+      color: yellow;
+  }
